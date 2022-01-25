@@ -1,1 +1,17 @@
-<p>login works!</p>
+<app-header></app-header>
+
+<div class="GoogleSignInButton"></div>
+
+<div class="container-fluid col-sm-10 col-md-9 col-lg-6 col-xl-6 col-xxl-6 p-lg-5 ">
+    <form>
+        <div class="first-name col-sm-8 col-md-8 col-lg-5">
+            <input type="text" class="form-control col-sm-12 col-" placeholder="Student Username" required>
+            <hr>
+            <input type="password" class="form-control col-sm-12 col-" placeholder="Student Password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p><a [routerLink]="['/ForgotPassword']" routerLinkActive="router-link-active">Forgot Password?</a></p>
+    </form>
+</div>
+
+<app-footer></app-footer>

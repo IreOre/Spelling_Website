@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { FAQComponent } from './pages/faq/faq.component';
+import { ForgotComponent } from './pages/forgot/forgot.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'privacy', component:PrivacyComponent },
   { path: 'terms-and-conditions', component: TermsComponent },
   { path: 'FAQ', component:FAQComponent },
+  { path: 'ForgotPassword', component: ForgotComponent }
 ];
 
 @NgModule({

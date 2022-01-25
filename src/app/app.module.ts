@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { PrivacyComponent } from './pages/privacy/privacy.component';
 import { TermsComponent } from './pages/terms/terms.component';
 import { FAQComponent } from './pages/faq/faq.component';
+import { ForgotComponent } from './pages/forgot/forgot.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FAQComponent } from './pages/faq/faq.component';
     AboutComponent,
     PrivacyComponent,
     TermsComponent,
-    FAQComponent
+    FAQComponent,
+    ForgotComponent
   ],
   imports: [
     BrowserModule,
